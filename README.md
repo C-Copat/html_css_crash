@@ -7,4 +7,3 @@ In this projetct I added some of the resulting HTML/CSS documents used to learn 
 ### Upcoming
 
 More examples could be found in the upcoming projects.
-
