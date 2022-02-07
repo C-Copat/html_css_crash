@@ -38,3 +38,34 @@ It would return 2 files
 
 1) testkey -> your own private key
 2) testkey.pub -> your own public key (able to share with other to validate)
+
+### Actually pushing
+
+git push origin main
+
+    origin -> Place where it comes from
+    main -> branch to be updated
+
+## Creating a new repository
+
+git remote add origin git@github.com:C-Copat/demo_repo_2.git
+
+git remote -v
+
+### Using 'upstream' to create default destiny
+
+git remote -u add origin main
+
+### Master vs Main
+
+Most of branches now use the 'main' denomination, instead of 'master'
+
+## Creating Branches
+
+echo "# C-Copat" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin git@github.com:C-Copat/C-Copat.git
+git push -u origin main
